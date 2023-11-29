@@ -1,5 +1,6 @@
 const mongoose=require('mongoose')
 
+const { ObjectId } = mongoose.Schema.Types;
 
 const userSchema=mongoose.Schema({
     _id: ObjectId,
